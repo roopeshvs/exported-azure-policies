@@ -1,0 +1,33 @@
+{
+ "sku": {
+  "name": "A0",
+  "tier": "Free"
+ },
+ "properties": {
+  "displayName": "Require a tag and its value on resources",
+  "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/1e30110a-5ceb-460c-a204-c1c3969c6d62",
+  "scope": "/subscriptions/fb823811-8a67-4f37-a747-715f726b1e04/resourceGroups/roopesh-az-policy-demo",
+  "notScopes": [],
+  "parameters": {
+   "tagName": {
+    "value": "Purpose"
+   },
+   "tagValue": {
+    "value": "Demo"
+   }
+  },
+  "description": "Require the tag 'Purpose' and its value 'Demo' on all tags in the RG roopesh-az-policy-demo.",
+  "metadata": {
+   "assignedBy": "VS Roopesh",
+   "parameterScopes": {},
+   "createdBy": "b05d8163-c020-4949-9a5b-6688a9d3b9b6",
+   "createdOn": "2022-01-15T06:01:44.9811193Z",
+   "updatedBy": null,
+   "updatedOn": null
+  },
+  "enforcementMode": "Default"
+ },
+ "id": "/subscriptions/fb823811-8a67-4f37-a747-715f726b1e04/resourceGroups/roopesh-az-policy-demo/providers/Microsoft.Authorization/policyAssignments/5a77177bc3ab4cd4b809c53e",
+ "type": "Microsoft.Authorization/policyAssignments",
+ "name": "5a77177bc3ab4cd4b809c53e"
+}
