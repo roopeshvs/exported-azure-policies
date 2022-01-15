@@ -1,0 +1,36 @@
+{
+ "sku": {
+  "name": "A0",
+  "tier": "Free"
+ },
+ "identity": {
+  "principalId": "c758ebce-bb8a-48a9-bb2e-fd0a2430aad8",
+  "tenantId": "2a731c61-a2b2-4661-8409-5b861cf40d0c",
+  "type": "SystemAssigned"
+ },
+ "properties": {
+  "displayName": "Inherit a tag from the resource group if missing",
+  "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/ea3f2387-9b95-492a-a190-fcdc54f7b070",
+  "scope": "/subscriptions/fb823811-8a67-4f37-a747-715f726b1e04",
+  "notScopes": [],
+  "parameters": {
+   "tagName": {
+    "value": "Owner"
+   }
+  },
+  "description": "Assets inherit 'Owner' tag from resource group if an 'Owner' tag is not applied. ",
+  "metadata": {
+   "assignedBy": "Brandon Hoth",
+   "parameterScopes": {},
+   "createdBy": "cd63af8a-0eaa-4a39-9c7c-2c14d28b5829",
+   "createdOn": "2021-08-13T15:21:12.7604877Z",
+   "updatedBy": null,
+   "updatedOn": null
+  },
+  "enforcementMode": "Default"
+ },
+ "id": "/subscriptions/fb823811-8a67-4f37-a747-715f726b1e04/providers/Microsoft.Authorization/policyAssignments/b9657c73423440fd8f124dd3",
+ "type": "Microsoft.Authorization/policyAssignments",
+ "name": "b9657c73423440fd8f124dd3",
+ "location": "eastus"
+}
