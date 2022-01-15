@@ -16,7 +16,7 @@
     "value": "Demo"
    }
   },
-  "description": "Require the tag 'Purpose' and its value 'Demo' on all tags in the RG roopesh-az-policy-demo.",
+  "description": "Require the tag 'Purpose' and its value 'Learning' on all tags in the RG roopesh-az-policy-demo.",
   "metadata": {
    "assignedBy": "VS Roopesh",
    "parameterScopes": {},
