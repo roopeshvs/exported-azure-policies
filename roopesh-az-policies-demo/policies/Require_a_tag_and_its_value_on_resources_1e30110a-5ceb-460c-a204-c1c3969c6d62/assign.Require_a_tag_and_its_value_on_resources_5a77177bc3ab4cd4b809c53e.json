@@ -13,7 +13,7 @@
     "value": "Purpose"
    },
    "tagValue": {
-    "value": "Demo"
+    "value": "Learning"
    }
   },
   "description": "Require the tag 'Purpose' and its value 'Learning' on all tags in the RG roopesh-az-policy-demo.",
